@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: var(--app-width);
+    height: var(--app-height);
+    background-color: #fff;
+    border-radius: 22px;
+    box-shadow: 0px 34px 48px 0px rgba(0,0,0,0.55);
+
+    display: flex;
+}
