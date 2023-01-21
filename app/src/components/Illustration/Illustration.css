@@ -26,6 +26,18 @@
     left: var(--illustration-box-left);
     top: var(--illustration-box-top);
 }
+@media screen and (min-width:740px) and (max-width: 1023px) {
+    .card-bg {
+        background-size: 170%;
+    }
+    .illustration-woman {
+        width: 110%;
+    }
+    
+    .illustration-box {
+        width: 36%;
+    }
+}
 
 @media screen and (max-width: 739px) {
     .card-bg {
@@ -33,7 +45,7 @@
         background-image: url('../../assets/images/bg-pattern-mobile.svg');
     }
     .illustration-woman {
-        width: 80%;
+        width: 76%;
     }
     
     .illustration-box {

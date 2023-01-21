@@ -35,6 +35,13 @@
     :root {
         --app-width: 690px;
         --app-height: 500px;
+
+        --illustration-bg-x : -275px;
+        --illustration-bg-y : -30px;
+        --illustration-woman-left : -64px;
+        --illustration-woman-top : 130px;
+        --illustration-box-left : -60px;
+        --illustration-box-top : 252px;
     }
 }
 
@@ -47,8 +54,8 @@
         --illustration-height: 25%;
         --illustration-bg-x : 50%;
         --illustration-bg-y : 0;
-        --illustration-woman-left : 10%;
-        --illustration-woman-top : -116px;
+        --illustration-woman-left : 12%;
+        --illustration-woman-top : -110px;
         --illustration-box-left : 8%;
         --illustration-box-top : -40px;
     }
