@@ -1,22 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
-    --font-family : 'Kumbh Sans';
-    --font-weight-l : 400;
-    --font-weight-b : 700;
-    --font-size : 12px;
-    
-    --color-desaturated-blue : #1d1e35;
-    --color-soft-red : #f47c57;
+    --font-family: 'Kumbh Sans';
+    --font-weight-l: 400;
+    --font-weight-b: 700;
+    --font-size: 12px;
 
-    --color-soft-violet : #af67e9;
-    --color-soft-blue : #6565e7;
-    --color-bg-gradient : linear-gradient(180deg, rgba(175, 103, 233, 1) 0%, rgba(101, 101, 231, 1) 100%);
+    --color-desaturated-blue: #1d1e35;
+    --color-soft-red: #f47c57;
 
-    --color-very-dark-grayish-blue : #4a4b5e;
-    --color-dark-grayish-blue : #787887;
-    --color-light-grayish-blue : #e7e7e9;
+    --color-soft-violet: #af67e9;
+    --color-soft-blue: #6565e7;
+    --color-bg-gradient: linear-gradient(180deg, rgba(175, 103, 233, 1) 0%, rgba(101, 101, 231, 1) 100%);
+
+    --color-very-dark-grayish-blue: #4a4b5e;
+    --color-dark-grayish-blue: #787887;
+    --color-light-grayish-blue: #e7e7e9;
     
-    --app-width : 896px;
-    --app-height : 500px;
+    /* ====================================== */
+    --app-width: 896px;
+    --app-height: 500px;
+
+    --illustration-width: 50%;
+    --illustration-height: 100%;
+    --illustration-bg-x : -580px;
+    --illustration-bg-y : -300px;
+    --illustration-woman-left : -86px;
+    --illustration-woman-top : 60px;
+    --illustration-box-left : -92.5px;
+    --illustration-box-top : 190px;
+}
+
+@media screen and (min-width:740px) and (max-width: 1023px) {
+    :root {
+        --app-width: 690px;
+        --app-height: 500px;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    :root {
+        --app-width: 320px;
+        --app-height: 520px;
+
+        --illustration-width: 100%;
+        --illustration-height: 25%;
+        --illustration-bg-x : 50%;
+        --illustration-bg-y : 0;
+        --illustration-woman-left : 10%;
+        --illustration-woman-top : -116px;
+        --illustration-box-left : 8%;
+        --illustration-box-top : -40px;
+    }
 }

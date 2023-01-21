@@ -32,10 +32,11 @@ const data = [
 
 function ToggleAnswer(props) {
 	const activeHandle = (e) => {
-		if (e.target.classList.contains('active')) {
-			e.target.classList.remove('active')
+		// console.log(e.target)
+		// console.log(e.currentTarget)
+		if (e.currentTarget.classList.contains('active')) {
+			e.currentTarget.classList.remove('active')
 		}
-		
 		else
 		{
 			let activedButtons = document.getElementsByClassName('active')
@@ -43,7 +44,7 @@ function ToggleAnswer(props) {
 				btn.classList.remove('active')
 			}
 	
-			e.target.classList.add('active')
+			e.currentTarget.classList.add('active')
 		}
 	}
 

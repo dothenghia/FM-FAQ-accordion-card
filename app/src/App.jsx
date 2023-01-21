@@ -6,7 +6,7 @@ import FAQ from './components/FAQ/FAQ';
 
 const App = () => {
     return (
-        <div class="app">
+        <div className="app">
             <Illustration/>
             <FAQ/>
         </div>

@@ -23,3 +23,11 @@
 
     display: flex;
 }
+
+@media screen and (max-width: 739px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+}

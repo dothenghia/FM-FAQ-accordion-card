@@ -1,8 +1,19 @@
 .FAQ {
     width: 50%;
     height: 100%;
-    padding: 50px 50px 50px 0;
+    padding: 50px 50px 50px 20px;
 }
+@media screen and (max-width: 739px) {
+    .FAQ {
+        width: 100%;
+        height: 80%;
+        padding: 0 20px;
+    }
+    .FAQ-heading {
+        text-align: center;
+    }
+}
+
 .FAQ-heading {
     margin-bottom: 20px;
 }
@@ -24,6 +35,7 @@
     justify-content: space-between;
     background-color: transparent;
     border: none;
+    outline: none;
 
     user-select: none;
 }
@@ -43,8 +55,9 @@
     overflow: hidden;
     color: var(--color-dark-grayish-blue);
     font-size: var(--font-size);
-    transition: max-height 0.3s ease;
+    transition: max-height 0.5s ease;
     padding-bottom: 0px;
+    padding-right: 20px;
 }
 
 
@@ -66,7 +79,7 @@
     transform: scaleY(-1);
 }
 .toggle-button.active + .toggle-answer {
-    max-height: 40px;
+    max-height: max-content;
     padding-bottom: 14px;
 }
 
