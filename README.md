@@ -44,7 +44,7 @@ In Mobile version
 
 - Solution URL: https://github.com/dothenghia/FM-FAQ-accordion-card
 
-- Live Site URL: https://dothenghia.github.io/FM-Interactive-rating-component/
+- Live Site URL: https://dothenghia.github.io/FM-FAQ-accordion-card/
 
 ## 2/ My process
 
